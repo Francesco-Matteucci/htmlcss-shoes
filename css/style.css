@@ -1,0 +1,76 @@
+/*Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+/*Utils*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.red {
+    background-color: #f00;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.yellow {
+    background-color: #FFFF00;
+}
+
+/*Generics*/
+
+body {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+li {
+    padding-right: 50px;
+    padding-top: 30px;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 20px;
+}
+
+/*elegant version*/
+
+.viewport-page {
+    height: 100vh;
+}
