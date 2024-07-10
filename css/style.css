@@ -13,7 +13,7 @@ html {
 
 /*Utils*/
 .container {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -29,10 +29,20 @@ html {
     background-color: #FFFF00;
 }
 
+
+h2 {
+    font-size: 3em;
+    color: #FFFF00;
+}
+
 /*Generics*/
 
-body {
-    position: relative;
+li a:hover {
+    scale: 1.2;
+}
+
+li a:active {
+    scale: 1.0;
 }
 
 .flex {
@@ -55,6 +65,7 @@ a {
     width: 50px;
     border-radius: 50%;
     background-color: #FFF;
+    box-shadow: 2px 3px 10px #000;
 }
 
 li {
@@ -68,6 +79,16 @@ li {
     top: 0;
     right: 20px;
 }
+
+#casual h2 {
+    color: #008000;
+}
+
+.main-content {
+    text-align: center;
+}
+
+
 
 /*elegant version*/
 
